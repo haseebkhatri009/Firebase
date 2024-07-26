@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(212, 202, 202);
+}
+#login-btn, #signup-btn{
+    color: black;
+    font-size: 40px;
+    text-decoration: none;
+    display: block;
+    margin: 20px;
+    border: 1px solid;
+    border-radius: 10px;
+    font-family: sans-serif;
+    background-color: rgb(212, 202, 202);
+}
+#login-btn:hover, #signup-btn:hover{
+    background-color: rgb(160, 148, 148);
+}
+#main{
+    text-align: center;
+    border: 1px solid;
+    border-radius: 15px;
+    width: 300px;
+    position: relative;
+    left: 40%;
+    top: 200px;
+    background-color: white;
+}

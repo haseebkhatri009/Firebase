@@ -1,0 +1,56 @@
+body{
+    background-color: rgb(212, 202, 202);
+}
+#main{
+    border: 1px solid;
+    width: 280px;
+    height: 320px;
+    position: relative;
+    left: 40%;
+    top: 90px;
+    background-color: whitesmoke;
+}
+h1{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+}
+#email,#password{
+    border-radius: 10px;
+    height: 30px;
+    width: 200px;
+    margin: 10px;
+    margin-left: 38px;
+}
+#email{
+    margin-top: 0px;
+}
+#password{
+    margin-bottom: 20px;
+}
+#btn{
+    border-radius: 7px;
+    margin-left: 88px;
+    height: 30px;
+    width: 100px;
+    background-color: rgb(243, 229, 229);
+}
+#btn:hover{
+    background-color: rgb(212, 202, 202);
+    cursor: pointer;
+}
+#msg{
+    text-align: center;
+    color: red;
+}
+#already{
+    position: absolute;
+    top: 93%;
+    left: 22%;
+    text-decoration: none;
+    color: black;
+}
+#already:hover{
+    color: blue;
+    text-decoration: underline;
+}
