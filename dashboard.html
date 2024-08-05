@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./dashboard.css">
+    <title>Dashboard</title>
+</head>
+<body>
+    <div id="navBar">
+            <span id="email" class="same">User-Email:</span>
+            <span id="userEmail" class="same"></span>
+        <button id="logout-btn">Logout</button>
+    </div>
+    <h1>Store</h1>
+
+    <form id="form">
+      <input type="text" placeholder="ProductName" id="name" required/>
+      <input type="number" placeholder="ProductPrice" id="price" required/>
+      <input type="text" placeholder="ProductDetail" id="detail" required/>
+      <button type="submit" id="btn">Done</button>
+    </form>
+
+    <div class="products"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/date-fns@3.6.0/cdn.min.js"></script>
+
+    <script type="module" src="./dashboard.js"></script>
+</body>
+</html>
